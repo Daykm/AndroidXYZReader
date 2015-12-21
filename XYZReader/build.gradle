@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0-alpha1'
+        classpath 'com.android.tools.build:gradle:1.5.0'
     }
 }
 apply plugin: 'com.android.application'
@@ -25,6 +25,7 @@ android {
 dependencies {
     def googleLibraryVersion = '23.1.1'
     compile 'com.android.support:support-v4:' + googleLibraryVersion
+    compile 'com.android.support:design:' + googleLibraryVersion
     compile 'com.android.support:support-v13:' + googleLibraryVersion
     compile 'com.android.support:appcompat-v7:' + googleLibraryVersion
     compile 'com.android.support:palette-v7:' + googleLibraryVersion

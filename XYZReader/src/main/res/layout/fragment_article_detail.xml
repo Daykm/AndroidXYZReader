@@ -45,7 +45,8 @@
 
                 <TextView
                     android:id="@+id/article_title"
-                    style="?android:attr/textAppearanceLargeInverse"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:textColor="@android:color/primary_text_dark"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
@@ -56,7 +57,7 @@
 
                 <TextView
                     android:id="@+id/article_byline"
-                    style="?android:attr/textAppearanceSmall"
+                    style="@style/TextAppearance.AppCompat.Subhead.Inverse"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#8fff"
@@ -64,9 +65,8 @@
             </LinearLayout>
 
             <TextView
-                android:elevation="4dp"
                 android:id="@+id/article_body"
-                style="?android:attr/textAppearanceMedium"
+                style="@style/TextAppearance.AppCompat.Body2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/detail_inner_horiz_margin"

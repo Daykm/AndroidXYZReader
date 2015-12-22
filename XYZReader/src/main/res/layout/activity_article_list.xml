@@ -20,7 +20,7 @@
             android:gravity="center_vertical">
 
             <TextView
-                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/xyz"
@@ -28,7 +28,7 @@
                 android:typeface="monospace" />
 
             <TextView
-                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/reader"
@@ -52,7 +52,6 @@
             android:paddingBottom="28dp"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
-            android:paddingTop="116dp"
             android:scrollbarStyle="outsideOverlay" />
 
     </android.support.v4.widget.SwipeRefreshLayout>
